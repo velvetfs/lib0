@@ -207,6 +207,8 @@
       "types": "./dist/types/logging.node.d.ts",
       "deno": "./logging.node.js",
       "bun": "./logging.js",
+      "module": "./logging.js",
+      "require": "./dist/logging.cjs",
       "node": {
         "module": "./logging.node.js",
         "require": "./dist/logging.node.cjs",
