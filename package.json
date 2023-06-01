@@ -20,7 +20,7 @@
     ".": {
       "types": "./dist/types/index.d.ts",
       "module": "./index.js",
-      "mport": "./dist/index.js",
+      "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
     "./array.js": "./array.js",
@@ -28,7 +28,7 @@
     "./array": {
       "types": "./dist/types/array.d.ts",
       "module": "./array.js",
-      "mport": "./dist/array.js",
+      "import": "./dist/array.js",
       "require": "./dist/array.cjs"
     },
     "./binary.js": "./binary.js",
@@ -36,7 +36,7 @@
     "./binary": {
       "types": "./dist/types/binary.d.ts",
       "module": "./binary.js",
-      "mport": "./dist/binary.js",
+      "import": "./dist/binary.js",
       "require": "./dist/binary.cjs"
     },
     "./broadcastchannel.js": "./broadcastchannel.js",
@@ -44,7 +44,7 @@
     "./broadcastchannel": {
       "types": "./dist/types/broadcastchannel.d.ts",
       "module": "./broadcastchannel.js",
-      "mport": "./dist/broadcastchannel.js",
+      "import": "./dist/broadcastchannel.js",
       "require": "./dist/broadcastchannel.cjs"
     },
     "./buffer.js": "./buffer.js",
@@ -52,7 +52,7 @@
     "./buffer": {
       "types": "./dist/types/buffer.d.ts",
       "module": "./buffer.js",
-      "mport": "./dist/buffer.js",
+      "import": "./dist/buffer.js",
       "require": "./dist/buffer.cjs"
     },
     "./cache.js": "./cache.js",
@@ -60,7 +60,7 @@
     "./cache": {
       "types": "./dist/types/cache.d.ts",
       "module": "./cache.js",
-      "mport": "./dist/cache.js",
+      "import": "./dist/cache.js",
       "require": "./dist/cache.cjs"
     },
     "./component.js": "./component.js",
@@ -68,7 +68,7 @@
     "./component": {
       "types": "./dist/types/component.d.ts",
       "module": "./component.js",
-      "mport": "./dist/component.js",
+      "import": "./dist/component.js",
       "require": "./dist/component.cjs"
     },
     "./conditions.js": "./conditions.js",
@@ -76,25 +76,25 @@
     "./conditions": {
       "types": "./dist/types/condititons.d.ts",
       "module": "./condititons.js",
-      "mport": "./dist/condititons.js",
+      "import": "./dist/condititons.js",
       "require": "./dist/conditions.cjs"
     },
     "./crypto/aes-gcm": {
       "types": "./dist/types/crypto/aes-gcm.d.ts",
       "module": "./crypto/aes-gcm.js",
-      "mport": "./dist/crypto/aes-gcm.js",
+      "import": "./dist/crypto/aes-gcm.js",
       "require": "./dist/crypto/aes-gcm.cjs"
     },
     "./crypto/ecdsa": {
       "types": "./dist/types/crypto/ecdsa.d.ts",
       "module": "./crypto/ecdsa.js",
-      "mport": "./dist/crypto/ecdsa.js",
+      "import": "./dist/crypto/ecdsa.js",
       "require": "./dist/crypto/ecdsa.cjs"
     },
     "./crypto/rsa-oaep": {
       "types": "./dist/types/crypto/rsa-oaep.d.ts",
       "module": "./crypto/rsa-oaep.js",
-      "mport": "./dist/crypto/rsa-oaep.js",
+      "import": "./dist/crypto/rsa-oaep.js",
       "require": "./dist/crypto/rsa-oaep.cjs"
     },
     "./decoding.js": "./decoding.js",
@@ -102,7 +102,7 @@
     "./decoding": {
       "types": "./dist/types/decoding.d.ts",
       "module": "./decoding.js",
-      "mport": "./dist/decoding.js",
+      "import": "./dist/decoding.js",
       "require": "./dist/decoding.cjs"
     },
     "./diff.js": "./diff.js",
@@ -110,7 +110,7 @@
     "./diff": {
       "types": "./dist/types/diff.d.ts",
       "module": "./diff.js",
-      "mport": "./dist/diff.js",
+      "import": "./dist/diff.js",
       "require": "./dist/diff.cjs"
     },
     "./dom.js": "./dom.js",
@@ -118,7 +118,7 @@
     "./dom": {
       "types": "./dist/types/dom.d.ts",
       "module": "./dom.js",
-      "mport": "./dist/dom.js",
+      "import": "./dist/dom.js",
       "require": "./dist/dom.cjs"
     },
     "./encoding.js": "./encoding.js",
@@ -126,7 +126,7 @@
     "./encoding": {
       "types": "./dist/types/encoding.d.ts",
       "module": "./encoding.js",
-      "mport": "./dist/encoding.js",
+      "import": "./dist/encoding.js",
       "require": "./dist/encoding.cjs"
     },
     "./environment.js": "./environment.js",
@@ -134,7 +134,7 @@
     "./environment": {
       "types": "./dist/types/environment.d.ts",
       "module": "./environment.js",
-      "mport": "./dist/environment.js",
+      "import": "./dist/environment.js",
       "require": "./dist/environment.cjs"
     },
     "./error.js": "./error.js",
@@ -142,7 +142,7 @@
     "./error": {
       "types": "./dist/types/error.d.ts",
       "module": "./error.js",
-      "mport": "./dist/error.js",
+      "import": "./dist/error.js",
       "require": "./dist/error.cjs"
     },
     "./eventloop.js": "./eventloop.js",
@@ -150,7 +150,7 @@
     "./eventloop": {
       "types": "./dist/types/eventloop.d.ts",
       "module": "./eventloop.js",
-      "mport": "./dist/eventloop.js",
+      "import": "./dist/eventloop.js",
       "require": "./dist/eventloop.cjs"
     },
     "./function.js": "./function.js",
@@ -158,7 +158,7 @@
     "./function": {
       "types": "./dist/types/function.d.ts",
       "module": "./function.js",
-      "mport": "./dist/function.js",
+      "import": "./dist/function.js",
       "require": "./dist/function.cjs"
     },
     "./indexeddb.js": "./indexeddb.js",
@@ -166,7 +166,7 @@
     "./indexeddb": {
       "types": "./dist/types/indexeddb.d.ts",
       "module": "./indexeddb.js",
-      "mport": "./dist/indexeddb.js",
+      "import": "./dist/indexeddb.js",
       "require": "./dist/indexeddb.cjs"
     },
     "./isomorphic.js": "./isomorphic.js",
@@ -174,7 +174,7 @@
     "./isomorphic": {
       "types": "./dist/types/isomorphic.d.ts",
       "module": "./isomorphic.js",
-      "mport": "./dist/isomorphic.js",
+      "import": "./dist/isomorphic.js",
       "require": "./dist/isomorphic.cjs"
     },
     "./iterator.js": "./iterator.js",
@@ -182,7 +182,7 @@
     "./iterator": {
       "types": "./dist/types/iterator.d.ts",
       "module": "./iterator.js",
-      "mport": "./dist/iterator.js",
+      "import": "./dist/iterator.js",
       "require": "./dist/iterator.cjs"
     },
     "./json.js": "./json.js",
@@ -190,7 +190,7 @@
     "./json": {
       "types": "./dist/types/json.d.ts",
       "module": "./json.js",
-      "mport": "./dist/json.js",
+      "import": "./dist/json.js",
       "require": "./dist/json.cjs"
     },
     "./list.js": "./list.js",
@@ -198,7 +198,7 @@
     "./list": {
       "types": "./dist/types/list.d.ts",
       "module": "./list.js",
-      "mport": "./dist/list.js",
+      "import": "./dist/list.js",
       "require": "./dist/list.cjs"
     },
     "./logging.js": "./logging.js",
@@ -223,7 +223,7 @@
     "./map": {
       "types": "./dist/types/map.d.ts",
       "module": "./map.js",
-      "mport": "./dist/map.js",
+      "import": "./dist/map.js",
       "require": "./dist/map.cjs"
     },
     "./math.js": "./math.js",
@@ -231,7 +231,7 @@
     "./math": {
       "types": "./dist/types/math.d.ts",
       "module": "./math.js",
-      "mport": "./dist/math.js",
+      "import": "./dist/math.js",
       "require": "./dist/math.cjs"
     },
     "./metric.js": "./metric.js",
@@ -239,7 +239,7 @@
     "./metric": {
       "types": "./dist/types/metric.d.ts",
       "module": "./metric.js",
-      "mport": "./dist/metric.js",
+      "import": "./dist/metric.js",
       "require": "./dist/metric.cjs"
     },
     "./mutex.js": "./mutex.js",
@@ -247,7 +247,7 @@
     "./mutex": {
       "types": "./dist/types/mutex.d.ts",
       "module": "./mutex.js",
-      "mport": "./dist/mutex.js",
+      "import": "./dist/mutex.js",
       "require": "./dist/mutex.cjs"
     },
     "./number.js": "./number.js",
@@ -255,7 +255,7 @@
     "./number": {
       "types": "./dist/types/number.d.ts",
       "module": "./number.js",
-      "mport": "./dist/number.js",
+      "import": "./dist/number.js",
       "require": "./dist/number.cjs"
     },
     "./object.js": "./object.js",
@@ -263,7 +263,7 @@
     "./object": {
       "types": "./dist/types/object.d.ts",
       "module": "./object.js",
-      "mport": "./dist/object.js",
+      "import": "./dist/object.js",
       "require": "./dist/object.cjs"
     },
     "./observable.js": "./observable.js",
@@ -271,7 +271,7 @@
     "./observable": {
       "types": "./dist/types/observable.d.ts",
       "module": "./observable.js",
-      "mport": "./dist/observable.js",
+      "import": "./dist/observable.js",
       "require": "./dist/observable.cjs"
     },
     "./pair.js": "./pair.js",
@@ -279,7 +279,7 @@
     "./pair": {
       "types": "./dist/types/pair.d.ts",
       "module": "./pair.js",
-      "mport": "./dist/pair.js",
+      "import": "./dist/pair.js",
       "require": "./dist/pair.cjs"
     },
     "./prng.js": "./prng.js",
@@ -287,7 +287,7 @@
     "./prng": {
       "types": "./dist/types/prng.d.ts",
       "module": "./prng.js",
-      "mport": "./dist/prng.js",
+      "import": "./dist/prng.js",
       "require": "./dist/prng.cjs"
     },
     "./promise.js": "./promise.js",
@@ -295,7 +295,7 @@
     "./promise": {
       "types": "./dist/types/promise.d.ts",
       "module": "./promise.js",
-      "mport": "./dist/promise.js",
+      "import": "./dist/promise.js",
       "require": "./dist/promise.cjs"
     },
     "./queue.js": "./queue.js",
@@ -303,7 +303,7 @@
     "./queue": {
       "types": "./dist/types/queue.d.ts",
       "module": "./queue.js",
-      "mport": "./dist/queue.js",
+      "import": "./dist/queue.js",
       "require": "./dist/queue.cjs"
     },
     "./random.js": "./random.js",
@@ -311,7 +311,7 @@
     "./random": {
       "types": "./dist/types/random.d.ts",
       "module": "./random.js",
-      "mport": "./dist/random.js",
+      "import": "./dist/random.js",
       "require": "./dist/random.cjs"
     },
     "./set.js": "./set.js",
@@ -319,7 +319,7 @@
     "./set": {
       "types": "./dist/types/set.d.ts",
       "module": "./set.js",
-      "mport": "./dist/set.js",
+      "import": "./dist/set.js",
       "require": "./dist/set.cjs"
     },
     "./sort.js": "./sort.js",
@@ -327,7 +327,7 @@
     "./sort": {
       "types": "./dist/types/sort.d.ts",
       "module": "./sort.js",
-      "mport": "./dist/sort.js",
+      "import": "./dist/sort.js",
       "require": "./dist/sort.cjs"
     },
     "./statistics.js": "./statistics.js",
@@ -335,7 +335,7 @@
     "./statistics": {
       "types": "./dist/types/statistics.d.ts",
       "module": "./statistics.js",
-      "mport": "./dist/statistics.js",
+      "import": "./dist/statistics.js",
       "require": "./dist/statistics.cjs"
     },
     "./storage.js": "./storage.js",
@@ -343,7 +343,7 @@
     "./storage": {
       "types": "./dist/types/storage.d.ts",
       "module": "./storage.js",
-      "mport": "./dist/storage.js",
+      "import": "./dist/storage.js",
       "require": "./dist/storage.cjs"
     },
     "./string.js": "./string.js",
@@ -351,7 +351,7 @@
     "./string": {
       "types": "./dist/types/string.d.ts",
       "module": "./string.js",
-      "mport": "./dist/string.js",
+      "import": "./dist/string.js",
       "require": "./dist/string.cjs"
     },
     "./symbol.js": "./symbol.js",
@@ -359,7 +359,7 @@
     "./symbol": {
       "types": "./dist/types/symbol.d.ts",
       "module": "./symbol.js",
-      "mport": "./dist/symbol.js",
+      "import": "./dist/symbol.js",
       "require": "./dist/symbol.cjs"
     },
     "./testing.js": "./testing.js",
@@ -367,7 +367,7 @@
     "./testing": {
       "types": "./dist/types/testing.d.ts",
       "module": "./testing.js",
-      "mport": "./dist/testing.js",
+      "import": "./dist/testing.js",
       "require": "./dist/testing.cjs"
     },
     "./time.js": "./time.js",
@@ -375,7 +375,7 @@
     "./time": {
       "types": "./dist/types/time.d.ts",
       "module": "./time.js",
-      "mport": "./dist/time.js",
+      "import": "./dist/time.js",
       "require": "./dist/time.cjs"
     },
     "./tree.js": "./tree.js",
@@ -383,7 +383,7 @@
     "./tree": {
       "types": "./dist/types/tree.d.ts",
       "module": "./tree.js",
-      "mport": "./dist/tree.js",
+      "import": "./dist/tree.js",
       "require": "./dist/tree.cjs"
     },
     "./url.js": "./url.js",
@@ -391,7 +391,7 @@
     "./url": {
       "types": "./dist/types/url.d.ts",
       "module": "./url.js",
-      "mport": "./dist/url.js",
+      "import": "./dist/url.js",
       "require": "./dist/url.cjs"
     },
     "./websocket.js": "./websocket.js",
@@ -399,7 +399,7 @@
     "./websocket": {
       "types": "./dist/types/websocket.d.ts",
       "module": "./websocket.js",
-      "mport": "./dist/websocket.js",
+      "import": "./dist/websocket.js",
       "require": "./dist/websocket.cjs"
     },
     "./webcrypto": {
