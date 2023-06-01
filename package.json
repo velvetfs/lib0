@@ -6,7 +6,7 @@
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./index.js",
-  "types": "./index.d.ts",
+  "types": "./dist/types/index.d.ts",
   "funding": {
     "type": "GitHub Sponsors ❤",
     "url": "https://github.com/sponsors/dmonad"
@@ -18,193 +18,193 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "types": "./index.d.ts",
+      "types": "./dist/types/index.d.ts",
       "module": "./index.js",
-      "import": "./index.js",
+      "mport": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
     "./array.js": "./array.js",
     "./dist/array.cjs": "./dist/array.cjs",
     "./array": {
-      "types": "./array.d.ts",
+      "types": "./dist/types/array.d.ts",
       "module": "./array.js",
-      "import": "./array.js",
+      "mport": "./dist/array.js",
       "require": "./dist/array.cjs"
     },
     "./binary.js": "./binary.js",
     "./dist/binary.cjs": "./dist/binary.cjs",
     "./binary": {
-      "types": "./binary.d.ts",
+      "types": "./dist/types/binary.d.ts",
       "module": "./binary.js",
-      "import": "./binary.js",
+      "mport": "./dist/binary.js",
       "require": "./dist/binary.cjs"
     },
     "./broadcastchannel.js": "./broadcastchannel.js",
     "./dist/broadcastchannel.cjs": "./dist/broadcastchannel.cjs",
     "./broadcastchannel": {
-      "types": "./broadcastchannel.d.ts",
+      "types": "./dist/types/broadcastchannel.d.ts",
       "module": "./broadcastchannel.js",
-      "import": "./broadcastchannel.js",
+      "mport": "./dist/broadcastchannel.js",
       "require": "./dist/broadcastchannel.cjs"
     },
     "./buffer.js": "./buffer.js",
     "./dist/buffer.cjs": "./dist/buffer.cjs",
     "./buffer": {
-      "types": "./buffer.d.ts",
+      "types": "./dist/types/buffer.d.ts",
       "module": "./buffer.js",
-      "import": "./buffer.js",
+      "mport": "./dist/buffer.js",
       "require": "./dist/buffer.cjs"
     },
     "./cache.js": "./cache.js",
     "./dist/cache.cjs": "./dist/cache.cjs",
     "./cache": {
-      "types": "./cache.d.ts",
+      "types": "./dist/types/cache.d.ts",
       "module": "./cache.js",
-      "import": "./cache.js",
+      "mport": "./dist/cache.js",
       "require": "./dist/cache.cjs"
     },
     "./component.js": "./component.js",
     "./dist/component.cjs": "./dist/component.cjs",
     "./component": {
-      "types": "./component.d.ts",
+      "types": "./dist/types/component.d.ts",
       "module": "./component.js",
-      "import": "./component.js",
+      "mport": "./dist/component.js",
       "require": "./dist/component.cjs"
     },
     "./conditions.js": "./conditions.js",
     "./dist/conditions.cjs": "./dist/conditions.cjs",
     "./conditions": {
-      "types": "./condititons.d.ts",
+      "types": "./dist/types/condititons.d.ts",
       "module": "./condititons.js",
-      "import": "./condititons.js",
+      "mport": "./dist/condititons.js",
       "require": "./dist/conditions.cjs"
     },
     "./crypto/aes-gcm": {
-      "types": "./crypto/aes-gcm.d.ts",
+      "types": "./dist/types/crypto/aes-gcm.d.ts",
       "module": "./crypto/aes-gcm.js",
-      "import": "./crypto/aes-gcm.js",
+      "mport": "./dist/crypto/aes-gcm.js",
       "require": "./dist/crypto/aes-gcm.cjs"
     },
     "./crypto/ecdsa": {
-      "types": "./crypto/ecdsa.d.ts",
+      "types": "./dist/types/crypto/ecdsa.d.ts",
       "module": "./crypto/ecdsa.js",
-      "import": "./crypto/ecdsa.js",
+      "mport": "./dist/crypto/ecdsa.js",
       "require": "./dist/crypto/ecdsa.cjs"
     },
     "./crypto/rsa-oaep": {
-      "types": "./crypto/rsa-oaep.d.ts",
+      "types": "./dist/types/crypto/rsa-oaep.d.ts",
       "module": "./crypto/rsa-oaep.js",
-      "import": "./crypto/rsa-oaep.js",
+      "mport": "./dist/crypto/rsa-oaep.js",
       "require": "./dist/crypto/rsa-oaep.cjs"
     },
     "./decoding.js": "./decoding.js",
     "./dist/decoding.cjs": "./dist/decoding.cjs",
     "./decoding": {
-      "types": "./decoding.d.ts",
+      "types": "./dist/types/decoding.d.ts",
       "module": "./decoding.js",
-      "import": "./decoding.js",
+      "mport": "./dist/decoding.js",
       "require": "./dist/decoding.cjs"
     },
     "./diff.js": "./diff.js",
     "./dist/diff.cjs": "./dist/diff.cjs",
     "./diff": {
-      "types": "./diff.d.ts",
+      "types": "./dist/types/diff.d.ts",
       "module": "./diff.js",
-      "import": "./diff.js",
+      "mport": "./dist/diff.js",
       "require": "./dist/diff.cjs"
     },
     "./dom.js": "./dom.js",
     "./dist/dom.cjs": "./dist/dom.cjs",
     "./dom": {
-      "types": "./dom.d.ts",
+      "types": "./dist/types/dom.d.ts",
       "module": "./dom.js",
-      "import": "./dom.js",
+      "mport": "./dist/dom.js",
       "require": "./dist/dom.cjs"
     },
     "./encoding.js": "./encoding.js",
     "./dist/encoding.cjs": "./dist/encoding.cjs",
     "./encoding": {
-      "types": "./encoding.d.ts",
+      "types": "./dist/types/encoding.d.ts",
       "module": "./encoding.js",
-      "import": "./encoding.js",
+      "mport": "./dist/encoding.js",
       "require": "./dist/encoding.cjs"
     },
     "./environment.js": "./environment.js",
     "./dist/environment.cjs": "./dist/environment.cjs",
     "./environment": {
-      "types": "./environment.d.ts",
+      "types": "./dist/types/environment.d.ts",
       "module": "./environment.js",
-      "import": "./environment.js",
+      "mport": "./dist/environment.js",
       "require": "./dist/environment.cjs"
     },
     "./error.js": "./error.js",
     "./dist/error.cjs": "./dist/error.cjs",
     "./error": {
-      "types": "./error.d.ts",
+      "types": "./dist/types/error.d.ts",
       "module": "./error.js",
-      "import": "./error.js",
+      "mport": "./dist/error.js",
       "require": "./dist/error.cjs"
     },
     "./eventloop.js": "./eventloop.js",
     "./dist/eventloop.cjs": "./dist/eventloop.cjs",
     "./eventloop": {
-      "types": "./eventloop.d.ts",
+      "types": "./dist/types/eventloop.d.ts",
       "module": "./eventloop.js",
-      "import": "./eventloop.js",
+      "mport": "./dist/eventloop.js",
       "require": "./dist/eventloop.cjs"
     },
     "./function.js": "./function.js",
     "./dist/function.cjs": "./dist/function.cjs",
     "./function": {
-      "types": "./function.d.ts",
+      "types": "./dist/types/function.d.ts",
       "module": "./function.js",
-      "import": "./function.js",
+      "mport": "./dist/function.js",
       "require": "./dist/function.cjs"
     },
     "./indexeddb.js": "./indexeddb.js",
     "./dist/indexeddb.cjs": "./dist/indexeddb.cjs",
     "./indexeddb": {
-      "types": "./indexeddb.d.ts",
+      "types": "./dist/types/indexeddb.d.ts",
       "module": "./indexeddb.js",
-      "import": "./indexeddb.js",
+      "mport": "./dist/indexeddb.js",
       "require": "./dist/indexeddb.cjs"
     },
     "./isomorphic.js": "./isomorphic.js",
     "./dist/isomorphic.cjs": "./dist/isomorphic.cjs",
     "./isomorphic": {
-      "types": "./isomorphic.d.ts",
+      "types": "./dist/types/isomorphic.d.ts",
       "module": "./isomorphic.js",
-      "import": "./isomorphic.js",
+      "mport": "./dist/isomorphic.js",
       "require": "./dist/isomorphic.cjs"
     },
     "./iterator.js": "./iterator.js",
     "./dist/iterator.cjs": "./dist/iterator.cjs",
     "./iterator": {
-      "types": "./iterator.d.ts",
+      "types": "./dist/types/iterator.d.ts",
       "module": "./iterator.js",
-      "import": "./iterator.js",
+      "mport": "./dist/iterator.js",
       "require": "./dist/iterator.cjs"
     },
     "./json.js": "./json.js",
     "./dist/json.cjs": "./dist/json.cjs",
     "./json": {
-      "types": "./json.d.ts",
+      "types": "./dist/types/json.d.ts",
       "module": "./json.js",
-      "import": "./json.js",
+      "mport": "./dist/json.js",
       "require": "./dist/json.cjs"
     },
     "./list.js": "./list.js",
     "./dist/list.cjs": "./dist/list.cjs",
     "./list": {
-      "types": "./list.d.ts",
+      "types": "./dist/types/list.d.ts",
       "module": "./list.js",
-      "import": "./list.js",
+      "mport": "./dist/list.js",
       "require": "./dist/list.cjs"
     },
     "./logging.js": "./logging.js",
     "./dist/logging.cjs": "./dist/logging.node.cjs",
     "./logging": {
-      "types": "./logging.node.d.ts",
+      "types": "./dist/types/logging.node.d.ts",
       "deno": "./logging.node.js",
       "bun": "./logging.js",
       "node": {
@@ -221,189 +221,189 @@
     "./map.js": "./map.js",
     "./dist/map.cjs": "./dist/map.cjs",
     "./map": {
-      "types": "./map.d.ts",
+      "types": "./dist/types/map.d.ts",
       "module": "./map.js",
-      "import": "./map.js",
+      "mport": "./dist/map.js",
       "require": "./dist/map.cjs"
     },
     "./math.js": "./math.js",
     "./dist/math.cjs": "./dist/math.cjs",
     "./math": {
-      "types": "./math.d.ts",
+      "types": "./dist/types/math.d.ts",
       "module": "./math.js",
-      "import": "./math.js",
+      "mport": "./dist/math.js",
       "require": "./dist/math.cjs"
     },
     "./metric.js": "./metric.js",
     "./dist/metric.cjs": "./dist/metric.cjs",
     "./metric": {
-      "types": "./metric.d.ts",
+      "types": "./dist/types/metric.d.ts",
       "module": "./metric.js",
-      "import": "./metric.js",
+      "mport": "./dist/metric.js",
       "require": "./dist/metric.cjs"
     },
     "./mutex.js": "./mutex.js",
     "./dist/mutex.cjs": "./dist/mutex.cjs",
     "./mutex": {
-      "types": "./mutex.d.ts",
+      "types": "./dist/types/mutex.d.ts",
       "module": "./mutex.js",
-      "import": "./mutex.js",
+      "mport": "./dist/mutex.js",
       "require": "./dist/mutex.cjs"
     },
     "./number.js": "./number.js",
     "./dist/number.cjs": "./dist/number.cjs",
     "./number": {
-      "types": "./number.d.ts",
+      "types": "./dist/types/number.d.ts",
       "module": "./number.js",
-      "import": "./number.js",
+      "mport": "./dist/number.js",
       "require": "./dist/number.cjs"
     },
     "./object.js": "./object.js",
     "./dist/object.cjs": "./dist/object.cjs",
     "./object": {
-      "types": "./object.d.ts",
+      "types": "./dist/types/object.d.ts",
       "module": "./object.js",
-      "import": "./object.js",
+      "mport": "./dist/object.js",
       "require": "./dist/object.cjs"
     },
     "./observable.js": "./observable.js",
     "./dist/observable.cjs": "./dist/observable.cjs",
     "./observable": {
-      "types": "./observable.d.ts",
+      "types": "./dist/types/observable.d.ts",
       "module": "./observable.js",
-      "import": "./observable.js",
+      "mport": "./dist/observable.js",
       "require": "./dist/observable.cjs"
     },
     "./pair.js": "./pair.js",
     "./dist/pair.cjs": "./dist/pair.cjs",
     "./pair": {
-      "types": "./pair.d.ts",
+      "types": "./dist/types/pair.d.ts",
       "module": "./pair.js",
-      "import": "./pair.js",
+      "mport": "./dist/pair.js",
       "require": "./dist/pair.cjs"
     },
     "./prng.js": "./prng.js",
     "./dist/prng.cjs": "./dist/prng.cjs",
     "./prng": {
-      "types": "./prng.d.ts",
+      "types": "./dist/types/prng.d.ts",
       "module": "./prng.js",
-      "import": "./prng.js",
+      "mport": "./dist/prng.js",
       "require": "./dist/prng.cjs"
     },
     "./promise.js": "./promise.js",
     "./dist/promise.cjs": "./dist/promise.cjs",
     "./promise": {
-      "types": "./promise.d.ts",
+      "types": "./dist/types/promise.d.ts",
       "module": "./promise.js",
-      "import": "./promise.js",
+      "mport": "./dist/promise.js",
       "require": "./dist/promise.cjs"
     },
     "./queue.js": "./queue.js",
     "./dist/queue.cjs": "./dist/queue.cjs",
     "./queue": {
-      "types": "./queue.d.ts",
+      "types": "./dist/types/queue.d.ts",
       "module": "./queue.js",
-      "import": "./queue.js",
+      "mport": "./dist/queue.js",
       "require": "./dist/queue.cjs"
     },
     "./random.js": "./random.js",
     "./dist/random.cjs": "./dist/random.cjs",
     "./random": {
-      "types": "./random.d.ts",
+      "types": "./dist/types/random.d.ts",
       "module": "./random.js",
-      "import": "./random.js",
+      "mport": "./dist/random.js",
       "require": "./dist/random.cjs"
     },
     "./set.js": "./set.js",
     "./dist/set.cjs": "./dist/set.cjs",
     "./set": {
-      "types": "./set.d.ts",
+      "types": "./dist/types/set.d.ts",
       "module": "./set.js",
-      "import": "./set.js",
+      "mport": "./dist/set.js",
       "require": "./dist/set.cjs"
     },
     "./sort.js": "./sort.js",
     "./dist/sort.cjs": "./dist/sort.cjs",
     "./sort": {
-      "types": "./sort.d.ts",
+      "types": "./dist/types/sort.d.ts",
       "module": "./sort.js",
-      "import": "./sort.js",
+      "mport": "./dist/sort.js",
       "require": "./dist/sort.cjs"
     },
     "./statistics.js": "./statistics.js",
     "./dist/statistics.cjs": "./dist/statistics.cjs",
     "./statistics": {
-      "types": "./statistics.d.ts",
+      "types": "./dist/types/statistics.d.ts",
       "module": "./statistics.js",
-      "import": "./statistics.js",
+      "mport": "./dist/statistics.js",
       "require": "./dist/statistics.cjs"
     },
     "./storage.js": "./storage.js",
     "./dist/storage.cjs": "./dist/storage.cjs",
     "./storage": {
-      "types": "./storage.d.ts",
+      "types": "./dist/types/storage.d.ts",
       "module": "./storage.js",
-      "import": "./storage.js",
+      "mport": "./dist/storage.js",
       "require": "./dist/storage.cjs"
     },
     "./string.js": "./string.js",
     "./dist/string.cjs": "./dist/string.cjs",
     "./string": {
-      "types": "./string.d.ts",
+      "types": "./dist/types/string.d.ts",
       "module": "./string.js",
-      "import": "./string.js",
+      "mport": "./dist/string.js",
       "require": "./dist/string.cjs"
     },
     "./symbol.js": "./symbol.js",
     "./dist/symbol.cjs": "./dist/symbol.cjs",
     "./symbol": {
-      "types": "./symbol.d.ts",
+      "types": "./dist/types/symbol.d.ts",
       "module": "./symbol.js",
-      "import": "./symbol.js",
+      "mport": "./dist/symbol.js",
       "require": "./dist/symbol.cjs"
     },
     "./testing.js": "./testing.js",
     "./dist/testing.cjs": "./dist/testing.cjs",
     "./testing": {
-      "types": "./testing.d.ts",
+      "types": "./dist/types/testing.d.ts",
       "module": "./testing.js",
-      "import": "./testing.js",
+      "mport": "./dist/testing.js",
       "require": "./dist/testing.cjs"
     },
     "./time.js": "./time.js",
     "./dist/time.cjs": "./dist/time.cjs",
     "./time": {
-      "types": "./time.d.ts",
+      "types": "./dist/types/time.d.ts",
       "module": "./time.js",
-      "import": "./time.js",
+      "mport": "./dist/time.js",
       "require": "./dist/time.cjs"
     },
     "./tree.js": "./tree.js",
     "./dist/tree.cjs": "./dist/tree.cjs",
     "./tree": {
-      "types": "./tree.d.ts",
+      "types": "./dist/types/tree.d.ts",
       "module": "./tree.js",
-      "import": "./tree.js",
+      "mport": "./dist/tree.js",
       "require": "./dist/tree.cjs"
     },
     "./url.js": "./url.js",
     "./dist/url.cjs": "./dist/url.cjs",
     "./url": {
-      "types": "./url.d.ts",
+      "types": "./dist/types/url.d.ts",
       "module": "./url.js",
-      "import": "./url.js",
+      "mport": "./dist/url.js",
       "require": "./dist/url.cjs"
     },
     "./websocket.js": "./websocket.js",
     "./dist/websocket.cjs": "./dist/websocket.cjs",
     "./websocket": {
-      "types": "./websocket.d.ts",
+      "types": "./dist/types/websocket.d.ts",
       "module": "./websocket.js",
-      "import": "./websocket.js",
+      "mport": "./dist/websocket.js",
       "require": "./dist/websocket.cjs"
     },
     "./webcrypto": {
-      "types": "./webcrypto.d.ts",
+      "types": "./dist/types/webcrypto.d.ts",
       "deno": "./webcrypto.deno.js",
       "bun": "./webcrypto.js",
       "node": {
@@ -420,7 +420,7 @@
     "./performance.js": "./performance.js",
     "./dist/performance.cjs": "./dist/performance.node.cjs",
     "./performance": {
-      "types": "./performance.d.ts",
+      "types": "./dist/types/performance.d.ts",
       "deno": "./performance.node.js",
       "bun": "./performance.node.js",
       "node": {
@@ -449,7 +449,7 @@
   },
   "scripts": {
     "clean": "rm -rf dist *.d.ts */*.d.ts *.d.ts.map */*.d.ts.map",
-    "types": "tsc --outDir .",
+    "types": "tsc --outDir ./dist/types",
     "dist": "rollup -c",
     "debug": "npm run gentesthtml && npx 0serve -o test.html",
     "test": "c8 --check-coverage --lines 100 --branches 100 --functions 100 --statements 100 node --unhandled-rejections=strict ./test.js --repetition-time 50 --production",

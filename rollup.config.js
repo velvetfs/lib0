@@ -17,8 +17,17 @@ export default [
     external: [
       "isomorphic.js",
       "node:crypto",
+      "lib0/webcrypto",
       "lib0/performance",
       "perf_hooks",
     ],
+  },
+  {
+    input: files,
+    output: {
+      dir: "./dist",
+      format: "es",
+      sourcemap: true,
+    },
   },
 ];
